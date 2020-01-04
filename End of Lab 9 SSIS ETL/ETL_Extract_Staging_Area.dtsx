@@ -7,12 +7,12 @@
   DTS:CreatorName="PC\Pedro"
   DTS:DTSID="{D90ABA43-D219-43CC-A7D0-786A1C13CA87}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.2000.68"
+  DTS:LastModifiedProductVersion="15.0.1301.433"
   DTS:LocaleID="2070"
   DTS:ObjectName="ETL_Extract_Staging_Area"
   DTS:PackageType="5"
-  DTS:VersionBuild="72"
-  DTS:VersionGUID="{7B1A800E-DFC2-4984-BC22-0E4D0944478B}">
+  DTS:VersionBuild="73"
+  DTS:VersionGUID="{6577E183-E0EB-4128-9E82-B260E1B4E503}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -47,7 +47,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="ETL_NAME">
       <DTS:VariableValue
-        DTS:DataType="8">ETL ID:04/01/2020 18:27:22</DTS:VariableValue>
+        DTS:DataType="8">ETL ID:04/01/2020 18:31:08</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -97,7 +97,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Clear Client Dimension"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="4">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -114,7 +114,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Clear Date Dimension"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="5">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -131,7 +131,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Clear Product Dimension"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="3">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -148,7 +148,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Clear Shipper2 Dimension"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="2">
+          DTS:ThreadHint="4">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -165,7 +165,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Clear Staff5 Dimension"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="3">
+          DTS:ThreadHint="5">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -191,13 +191,13 @@
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
-          DTS:refId="Package\Clear all the previous values from Staging Area (both Dimension and Fact tables)\Truncate Stock Fact"
+          DTS:refId="Package\Clear all the previous values from Staging Area (both Dimension and Fact tables)\Truncate Stock Fact1"
           DTS:CreationName="Microsoft.ExecuteSQLTask"
           DTS:Description="Tarefa Executar SQL"
           DTS:DTSID="{D067B1E5-54F8-4993-B1B5-9F99B35BBEFA}"
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
-          DTS:ObjectName="Truncate Stock Fact"
+          DTS:ObjectName="Truncate Stock Fact1"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
           DTS:ThreadHint="7">
           <DTS:Variables />
@@ -8090,8 +8090,8 @@ INNER JOIN Suppliers ON Products.SupplierID = Suppliers.SupplierID;</property>
           Id="Package\Clear all the previous values from Staging Area (both Dimension and Fact tables)\Truncate Sales Fact"
           TopLeft="489,22" />
         <NodeLayout
-          Size="173,42"
-          Id="Package\Clear all the previous values from Staging Area (both Dimension and Fact tables)\Truncate Stock Fact"
+          Size="178,42"
+          Id="Package\Clear all the previous values from Staging Area (both Dimension and Fact tables)\Truncate Stock Fact1"
           TopLeft="489,97.5" />
         <ContainerLayout
           HeaderHeight="43"
