@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "LudimusicETL", "End of Lab 9 SSIS ETL\LudimusicETL.dtproj", "{CD7EA9B7-6026-4E00-AD63-AFCBBCB1FD6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD7EA9B7-6026-4E00-AD63-AFCBBCB1FD6D}.Development|Default.ActiveCfg = Development
+		{CD7EA9B7-6026-4E00-AD63-AFCBBCB1FD6D}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0757A150-CDA3-4438-9353-2888D8D008FB}
+	EndGlobalSection
+EndGlobal
