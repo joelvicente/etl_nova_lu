@@ -11,8 +11,8 @@
   DTS:LocaleID="2070"
   DTS:ObjectName="ETL_Extract_Staging_Area"
   DTS:PackageType="5"
-  DTS:VersionBuild="78"
-  DTS:VersionGUID="{9CE2ECCD-4525-492D-AD31-BD9B42AC34DC}">
+  DTS:VersionBuild="79"
+  DTS:VersionGUID="{56CB309D-4EB9-497E-8A57-D7B1F947153A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -256,7 +256,7 @@
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
-              SQLTask:Connection="{7D62BFB6-BFC2-41A9-9EFB-59B1629E79A3}"
+              SQLTask:Connection="{03B90265-065E-4021-A385-FB7130D2D63D}"
               SQLTask:SqlStatementSource="delete from dbo.STG_DIM_Client" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
           </DTS:ObjectData>
         </DTS:Executable>
@@ -273,7 +273,7 @@
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
-              SQLTask:Connection="{7D62BFB6-BFC2-41A9-9EFB-59B1629E79A3}"
+              SQLTask:Connection="{03B90265-065E-4021-A385-FB7130D2D63D}"
               SQLTask:SqlStatementSource="delete from [dbo].[STG_DIM_Concurrent]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
           </DTS:ObjectData>
         </DTS:Executable>
@@ -290,7 +290,7 @@
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
-              SQLTask:Connection="{7D62BFB6-BFC2-41A9-9EFB-59B1629E79A3}"
+              SQLTask:Connection="{03B90265-065E-4021-A385-FB7130D2D63D}"
               SQLTask:SqlStatementSource="delete from [dbo].[STG_DIM_MethodPayment]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
           </DTS:ObjectData>
         </DTS:Executable>
@@ -307,7 +307,7 @@
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
-              SQLTask:Connection="{7D62BFB6-BFC2-41A9-9EFB-59B1629E79A3}"
+              SQLTask:Connection="{03B90265-065E-4021-A385-FB7130D2D63D}"
               SQLTask:SqlStatementSource="delete from [dbo].[STG_DIM_Product]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
           </DTS:ObjectData>
         </DTS:Executable>
