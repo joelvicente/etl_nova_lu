@@ -11,8 +11,8 @@
   DTS:LocaleID="2070"
   DTS:ObjectName="ETL_Extract_Staging_Area"
   DTS:PackageType="5"
-  DTS:VersionBuild="77"
-  DTS:VersionGUID="{865B38EE-948C-401B-8772-6F2E53CADCA2}">
+  DTS:VersionBuild="78"
+  DTS:VersionGUID="{9CE2ECCD-4525-492D-AD31-BD9B42AC34DC}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -363,6 +363,40 @@
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
+          DTS:refId="Package\Clear all the previous values from Staging Area (both Dimension and Fact tables)\Truncate Inventory Fact"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Tarefa Executar SQL"
+          DTS:DTSID="{5246e74d-2487-4706-af57-cf625b7fbbf1}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Truncate Inventory Fact"
+          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="10">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{7D62BFB6-BFC2-41A9-9EFB-59B1629E79A3}"
+              SQLTask:SqlStatementSource="truncate from [dbo].[STG_FCT_Inventory]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Clear all the previous values from Staging Area (both Dimension and Fact tables)\Truncate Market Fact"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Tarefa Executar SQL"
+          DTS:DTSID="{D067B1E5-54F8-4993-B1B5-9F99B35BBEFA}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Truncate Market Fact"
+          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="9">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{7D62BFB6-BFC2-41A9-9EFB-59B1629E79A3}"
+              SQLTask:SqlStatementSource="truncate from [dbo].[STG_FCT_Market]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
           DTS:refId="Package\Clear all the previous values from Staging Area (both Dimension and Fact tables)\Truncate Sales Fact"
           DTS:CreationName="Microsoft.ExecuteSQLTask"
           DTS:Description="Tarefa Executar SQL"
@@ -377,40 +411,6 @@
             <SQLTask:SqlTaskData
               SQLTask:Connection="{7D62BFB6-BFC2-41A9-9EFB-59B1629E79A3}"
               SQLTask:SqlStatementSource="truncate from [dbo].[STG_FCT_Sales]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
-          </DTS:ObjectData>
-        </DTS:Executable>
-        <DTS:Executable
-          DTS:refId="Package\Clear all the previous values from Staging Area (both Dimension and Fact tables)\Truncate Stock Fact1"
-          DTS:CreationName="Microsoft.ExecuteSQLTask"
-          DTS:Description="Tarefa Executar SQL"
-          DTS:DTSID="{D067B1E5-54F8-4993-B1B5-9F99B35BBEFA}"
-          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
-          DTS:LocaleID="-1"
-          DTS:ObjectName="Truncate Stock Fact1"
-          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="9">
-          <DTS:Variables />
-          <DTS:ObjectData>
-            <SQLTask:SqlTaskData
-              SQLTask:Connection="{7D62BFB6-BFC2-41A9-9EFB-59B1629E79A3}"
-              SQLTask:SqlStatementSource="TRUNCATE TABLE Fact_Stg_Inventory;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
-          </DTS:ObjectData>
-        </DTS:Executable>
-        <DTS:Executable
-          DTS:refId="Package\Clear all the previous values from Staging Area (both Dimension and Fact tables)\Truncate Stock Fact1 1"
-          DTS:CreationName="Microsoft.ExecuteSQLTask"
-          DTS:Description="Tarefa Executar SQL"
-          DTS:DTSID="{5246e74d-2487-4706-af57-cf625b7fbbf1}"
-          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
-          DTS:LocaleID="-1"
-          DTS:ObjectName="Truncate Stock Fact1 1"
-          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="10">
-          <DTS:Variables />
-          <DTS:ObjectData>
-            <SQLTask:SqlTaskData
-              SQLTask:Connection="{7D62BFB6-BFC2-41A9-9EFB-59B1629E79A3}"
-              SQLTask:SqlStatementSource="TRUNCATE TABLE Fact_Stg_Inventory;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
           </DTS:ObjectData>
         </DTS:Executable>
       </DTS:Executables>
@@ -7886,7 +7886,7 @@ INNER JOIN Suppliers ON Products.SupplierID = Suppliers.SupplierID;</property>
           TopLeft="27,155" />
         <NodeLayout
           Size="178,42"
-          Id="Package\Clear all the previous values from Staging Area (both Dimension and Fact tables)\Truncate Stock Fact1"
+          Id="Package\Clear all the previous values from Staging Area (both Dimension and Fact tables)\Truncate Market Fact"
           TopLeft="506,155.5" />
         <NodeLayout
           Size="192,42"
@@ -7894,7 +7894,7 @@ INNER JOIN Suppliers ON Products.SupplierID = Suppliers.SupplierID;</property>
           TopLeft="500,90.5" />
         <NodeLayout
           Size="178,42"
-          Id="Package\Clear all the previous values from Staging Area (both Dimension and Fact tables)\Truncate Stock Fact1 1"
+          Id="Package\Clear all the previous values from Staging Area (both Dimension and Fact tables)\Truncate Inventory Fact"
           TopLeft="31,217" />
         <ContainerLayout
           HeaderHeight="43"
