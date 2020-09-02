@@ -7,12 +7,12 @@
   DTS:CreatorName="PC\Pedro"
   DTS:DTSID="{02A4CBF9-44E0-44BC-A98C-BB1CE10D7909}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.1301.433"
+  DTS:LastModifiedProductVersion="15.0.2000.68"
   DTS:LocaleID="2070"
   DTS:ObjectName="Control_ETL_Execution_Process"
   DTS:PackageType="5"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{9D8950D0-9AEE-4CB7-83D5-1B0F9765B220}">
+  DTS:VersionBuild="11"
+  DTS:VersionGUID="{074922DC-0FF8-471C-822B-3F958D2EB6C4}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -73,21 +73,21 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="157,42"
           Id="Package\Execute DW ETL"
-          TopLeft="129,254" />
+          TopLeft="104,194" />
         <NodeLayout
           Size="152,42"
           Id="Package\Execute SA ETL"
-          TopLeft="130,152" />
+          TopLeft="105,92" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="206.75,194">
+          TopLeft="181.75,134">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,60"
               Start="0,0"
               End="0,52.5">
@@ -105,12 +105,12 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <AnnotationLayout
-          Text="Use this package (execute it) to deploy BOTH ETL packages &#xA;(Staging Area and data Warehouse) in corresponding order: first, SA, then DW.&#xA;&#xA;Remember to check what is the current choice in the project *parameter*: do we want&#xA;a FULL load or an INCREMENTAL load?"
+          Text="Is neccessary to configure the project *parameter*: for FULL load or an INCREMENTAL load"
           ParentId="Package"
-          FontInfo="{x:Null}"
-          Size="482,104"
+          FontInfo="{assembly:Null}"
+          Size="508,40"
           Id="273480a4-d2d7-4bf2-8f5f-61bc1bf0df93"
-          TopLeft="8,8" />
+          TopLeft="285,136" />
       </GraphLayout>
     </LayoutInfo>
   </Package>

@@ -1,0 +1,11 @@
+tipoPagamentoID;nome;status;comissao
+538;Pagamento após consulta;Ativo;0%
+545;Pagamento PayPal;Ativo;1%
+309;Transferencia Bancária;Ativo;1%
+310;Pagamento Multibanco;Ativo;1%
+47785;Pagamento com Boleto Bancário;Inativo;1%
+308;Pagamento contra envio (à cobrança);Ativo;0%
+307;Pagamento com levantamento na Loja de Leiria;Ativo;0%
+554;Pagamento com levantamento na Loja do Porto;Ativo;0%
+555;Pagamento com levantamento no armazém de Turquel;Ativo;0%
+311;Pagamento em Cartão de Crédito;Ativo;1%
