@@ -11,8 +11,8 @@
   DTS:LocaleID="2070"
   DTS:ObjectName="ETL_Load_Staging_Area"
   DTS:PackageType="5"
-  DTS:VersionBuild="387"
-  DTS:VersionGUID="{0F79F625-ED42-4909-8651-68BF754DA388}">
+  DTS:VersionBuild="389"
+  DTS:VersionGUID="{F3DCAE44-6425-407A-903C-D6259A7388DB}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsK3VdvSuaE6fICDXr+VGeQAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAB8pAryEEIEMWjbPoS1lXLjAAAAAASAAACgAAAAEAAAAEMuoFdgUSozmgLjrcPWzokQAAAAVKGtgLu/kN90QrrD9RG3vhQAAAAJZdAdg5dfyMXZPDlSVeQiEY1tjw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWRpXdc6liUaX9w8v1sXBpwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAB+puM72FuFxWtXNGM5JBL9AAAAAASAAACgAAAAEAAAALuBGwz7ooyMvI7gucW9+2sQAAAAXHfUC/QGRGzFsic0GuVKhRQAAAC8YoX9rFGArV06w35n685f3Lv3Tg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,7 +42,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsK3VdvSuaE6fICDXr+VGeQAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADvkHqaVT7b4lw7AkTWEKhpAAAAAASAAACgAAAAEAAAAJ0OA3vsCDjh1SKwbMyK3UAYAAAArKiJmXjSSB2efiGt6CzcOtuE61NAfFZKFAAAAHG2+O5ysQFnFoEzs+1/MiBl++J8</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWRpXdc6liUaX9w8v1sXBpwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAKrqtuBRWlDUdc/SUhzqcuAAAAAASAAACgAAAAEAAAACFBZeSdBfG+hVnfZTtLOckYAAAA8t6USI7J4/6u3OLr/mmP7btBdvc97j8SFAAAAMpW3HFHAjNPzmExRHRZG+XUttfS</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -57,7 +57,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsK3VdvSuaE6fICDXr+VGeQAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAD5wHI7EVAr4ADCcxkuJRkBAAAAAASAAACgAAAAEAAAAMItWM7o8rMbvnCPh9WhiE8QAAAA+lALDS5gS5M4zuBfkwdx9hQAAABxncQZ+G7T7isNi5OLi7hfsDjNKw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWRpXdc6liUaX9w8v1sXBpwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAWrTC6fIEpLuNan9oxWMnYAAAAAASAAACgAAAAEAAAANJ05i8styBATePX9O4AP5gQAAAAYfVHEXpPPzlLgKEDoacYghQAAAAJKuuF2B6T9Av5aCbpUe26Nhw2ag</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -92,7 +92,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsK3VdvSuaE6fICDXr+VGeQAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABtYQoh2BJqPcMuka1r6P/lAAAAAASAAACgAAAAEAAAAIncXqja5XwxvbHoTn6+pZMgAAAAxGBG39TUR5Ktr5bqAW+lfZ763bbLZPuq1tM5C4ZcEIQUAAAAaqxTr+EQ7wCZMI957m9ASDK1xOk</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWRpXdc6liUaX9w8v1sXBpwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADyy7iUuLrQJzPBS79VwXEDAAAAAASAAACgAAAAEAAAAGLEKDys30MylaD7hrR//JMgAAAAjrGfeEvaxQtyViBQ+mBQi06Szm+3rPybuKNEOuHBIuIUAAAAZTxe/Kg0tRwE0V0srk4lXFYEc6E</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -103,11 +103,11 @@
       DTS:ObjectName="sqlwebsrv01.LudimusicDW.instalador">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=sqlwebsrv01;User ID=instalador;Initial Catalog=LudimusicDW;Provider=SQLNCLI11.1;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=192.60.1.6;User ID=instalador;Initial Catalog=LudimusicDW;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsK3VdvSuaE6fICDXr+VGeQAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADANlNIziw0e6JexgyCMX2vAAAAAASAAACgAAAAEAAAAKoJ97bg4BS+uELmP2y2dssYAAAAgNqk3I8y2X+VFe5O9zqC+ewAMuU+63U2FAAAALLNChPlkGQbR76zgxNcU0vSqRuU</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWRpXdc6liUaX9w8v1sXBpwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAABCy1NNV/UjlCdXXqldfkePAAAAAASAAACgAAAAEAAAAPHWUISRDdvve3I08Jh7iMMYAAAAau0fyWTOnTb2CJg0ZjjAdy5w3ehYXLPnFAAAABFaMxXF6yy08CBWSbDDKRXyW+af</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -118,11 +118,11 @@
       DTS:ObjectName="sqlwebsrv01.LudimusicSA.instalador">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=sqlwebsrv01;User ID=instalador;Initial Catalog=LudimusicSA;Provider=SQLNCLI11.1;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=192.60.1.6;User ID=instalador;Initial Catalog=LudimusicSA;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsK3VdvSuaE6fICDXr+VGeQAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADnrt/ierYJfwD4RPMZ2f3gAAAAAASAAACgAAAAEAAAAGjivdb6z86S/GwAiBqylnwYAAAAmdfnfMo18EA1fCNtRnE4UoLtBt5i+T5nFAAAABiLTrUXoAltC2wYbKfcRBsmae1Y</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWRpXdc6liUaX9w8v1sXBpwAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACE7YZxgSdJG3WeFlbcgROUAAAAAASAAACgAAAAEAAAADxET2s1ZQY2LkbfxgXCLTQYAAAAT8EHdyCjcj4FLo4yifWugwzneh/j9l5HFAAAAIXfC5/k3rZIDnHwAL+XxwWjzzLb</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -193,7 +193,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="ETL_NAME">
       <DTS:VariableValue
-        DTS:DataType="8">ETL ID:15/05/2020 10:50:52</DTS:VariableValue>
+        DTS:DataType="8">ETL ID:02/09/2020 11:34:03</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -243,7 +243,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Clear Client Dimension"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="12">
+          DTS:ThreadHint="1">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -311,7 +311,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Clear Invoice Dimension"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="1">
+          DTS:ThreadHint="5">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -379,7 +379,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Clear Region Dimension"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="9">
+          DTS:ThreadHint="11">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -396,7 +396,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Clear Sales Channel Dimension"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="5">
+          DTS:ThreadHint="9">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -430,7 +430,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Clear Time Dimension"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="11">
+          DTS:ThreadHint="12">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -447,7 +447,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Clear WorkflowStatus Dimension"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="19">
+          DTS:ThreadHint="13">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -464,7 +464,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Truncate Inventory Fact"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="14">
+          DTS:ThreadHint="15">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -481,7 +481,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Truncate Market Fact"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="15">
+          DTS:ThreadHint="16">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -498,7 +498,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Truncate Purchases Fact"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="13">
+          DTS:ThreadHint="14">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -549,7 +549,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Truncate Sales Fact"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="16">
+          DTS:ThreadHint="19">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -18476,24 +18476,24 @@ order by [ListaValID]</property>
                   startId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension\Merge Join 1.Outputs[Merge Join Output]" />
                 <path
                   refId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension.Paths[OLE DB Source Output3]"
-                  endId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension\Sort ListaValID 1.Inputs[Sort Input]"
+                  endId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension\Derived Column New_ID.Inputs[Derived Column Input]"
                   name="OLE DB Source Output"
-                  startId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension\Lista Área de Interesse.Outputs[OLE DB Source Output]" />
+                  startId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension\Tabela Cliente (Produção).Outputs[OLE DB Source Output]" />
                 <path
                   refId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension.Paths[OLE DB Source Output2]"
-                  endId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension\Data Conversion 2.Inputs[Data Conversion Input]"
-                  name="OLE DB Source Output"
-                  startId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension\Tabela cl (PHC).Outputs[OLE DB Source Output]" />
-                <path
-                  refId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension.Paths[OLE DB Source Output1]"
                   endId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension\Sort 4.Inputs[Sort Input]"
                   name="OLE DB Source Output"
                   startId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension\Lista Tipo de Cliente.Outputs[OLE DB Source Output]" />
                 <path
-                  refId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension.Paths[OLE DB Source Output]"
-                  endId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension\Derived Column New_ID.Inputs[Derived Column Input]"
+                  refId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension.Paths[OLE DB Source Output1]"
+                  endId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension\Data Conversion 2.Inputs[Data Conversion Input]"
                   name="OLE DB Source Output"
-                  startId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension\Tabela Cliente (Produção).Outputs[OLE DB Source Output]" />
+                  startId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension\Tabela cl (PHC).Outputs[OLE DB Source Output]" />
+                <path
+                  refId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension.Paths[OLE DB Source Output]"
+                  endId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension\Sort ListaValID 1.Inputs[Sort Input]"
+                  name="OLE DB Source Output"
+                  startId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension\Lista Área de Interesse.Outputs[OLE DB Source Output]" />
                 <path
                   refId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension.Paths[Sem fatura]"
                   endId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension\Union All.Inputs[Union All Input 1]"
@@ -28196,19 +28196,19 @@ where (  ft.NMDOC  =  'Factura LEIRIA'  or
                   startId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\Multicast.Outputs[Multicast Output 2]" />
                 <path
                   refId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[OLE DB Source Output2]"
+                  endId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\Data Conversion 2.Inputs[Data Conversion Input]"
+                  name="OLE DB Source Output"
+                  startId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\OLE DB Source Localidades.Outputs[OLE DB Source Output]" />
+                <path
+                  refId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[OLE DB Source Output]"
                   endId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\Conditional Split.Inputs[Conditional Split Input]"
                   name="OLE DB Source Output"
                   startId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\OLE DB Source.Outputs[OLE DB Source Output]" />
                 <path
-                  refId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[OLE DB Source Output]"
+                  refId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[OLE DB Source Output1]"
                   endId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\Sort 3.Inputs[Sort Input]"
                   name="OLE DB Source Output"
                   startId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\OLE DB Source Países.Outputs[OLE DB Source Output]" />
-                <path
-                  refId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[OLE DB Source Output1]"
-                  endId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\Data Conversion 2.Inputs[Data Conversion Input]"
-                  name="OLE DB Source Output"
-                  startId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\OLE DB Source Localidades.Outputs[OLE DB Source Output]" />
                 <path
                   refId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[País Estrangeiro ou sem Código Postal]"
                   endId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\Sort 2.Inputs[Sort Input]"
@@ -28221,24 +28221,24 @@ where (  ft.NMDOC  =  'Factura LEIRIA'  or
                   startId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\Conditional Split.Outputs[Portugal com Código Postal]" />
                 <path
                   refId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[Sort Output3]"
+                  endId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\Merge Join.Inputs[Merge Join Left Input]"
+                  name="Sort Output"
+                  startId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\Sort CP4 e CP3.Outputs[Sort Output]" />
+                <path
+                  refId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[Sort Output]"
                   endId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\Merge Join.Inputs[Merge Join Right Input]"
                   name="Sort Output"
                   startId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\Sort 4 e 3 dígitos.Outputs[Sort Output]" />
                 <path
-                  refId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[Sort Output]"
+                  refId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[Sort Output1]"
                   endId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\Merge Join 1.Inputs[Merge Join Left Input]"
                   name="Sort Output"
                   startId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\Sort 2.Outputs[Sort Output]" />
                 <path
-                  refId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[Sort Output1]"
+                  refId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[Sort Output2]"
                   endId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\Merge Join 1.Inputs[Merge Join Right Input]"
                   name="Sort Output"
                   startId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\Sort 3.Outputs[Sort Output]" />
-                <path
-                  refId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[Sort Output2]"
-                  endId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\Merge Join.Inputs[Merge Join Left Input]"
-                  name="Sort Output"
-                  startId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\Sort CP4 e CP3.Outputs[Sort Output]" />
                 <path
                   refId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[Union All Output 1]"
                   endId="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales\Derived Column.Inputs[Derived Column Input]"
@@ -35379,7 +35379,7 @@ where estadoenc not like ''</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension.Paths[OLE DB Source Output3]"
+          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension.Paths[OLE DB Source Output]"
           TopLeft="266.5,422">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -35415,7 +35415,7 @@ where estadoenc not like ''</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension.Paths[OLE DB Source Output2]"
+          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension.Paths[OLE DB Source Output1]"
           TopLeft="853.25,391">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -35439,7 +35439,7 @@ where estadoenc not like ''</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension.Paths[OLE DB Source Output1]"
+          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension.Paths[OLE DB Source Output2]"
           TopLeft="266.5,228">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -35475,7 +35475,7 @@ where estadoenc not like ''</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension.Paths[OLE DB Source Output]"
+          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Client Dimension.Paths[OLE DB Source Output3]"
           TopLeft="513.625,54">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -36808,7 +36808,7 @@ where estadoenc not like ''</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[Sort Output3]"
+          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[Sort Output]"
           TopLeft="1282,398">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -36842,7 +36842,7 @@ where estadoenc not like ''</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[Sort Output2]"
+          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[Sort Output3]"
           TopLeft="1032,404">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -36876,7 +36876,7 @@ where estadoenc not like ''</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[Sort Output1]"
+          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[Sort Output2]"
           TopLeft="1778.5,288">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -36910,7 +36910,7 @@ where estadoenc not like ''</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[Sort Output]"
+          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[Sort Output1]"
           TopLeft="1585.5,293">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -37016,7 +37016,7 @@ where estadoenc not like ''</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[OLE DB Source Output2]"
+          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[OLE DB Source Output]"
           TopLeft="1419.85,103.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -37038,7 +37038,7 @@ where estadoenc not like ''</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[OLE DB Source Output1]"
+          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[OLE DB Source Output2]"
           TopLeft="1033.75,249">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -37060,7 +37060,7 @@ where estadoenc not like ''</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[OLE DB Source Output]"
+          Id="Package\Load all the Staging Area tables (Dimensions and Facts)\Load Fact Sales.Paths[OLE DB Source Output1]"
           TopLeft="1779.25,182">
           <EdgeLayout.Curve>
             <mssgle:Curve
