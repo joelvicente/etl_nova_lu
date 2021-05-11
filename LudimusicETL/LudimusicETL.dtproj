@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">PC</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWRpXdc6liUaX9w8v1sXBpwAAAAACAAAAAAADZgAAwAAAABAAAADxVkBNOdbW6vaMVykG2xRlAAAAAASAAACgAAAAEAAAAMHlJotwIFe5d+Xpp9SPVBaIAAAAkeQxRsNH/EExVfisLV6lz6mlALIWV9iAHuOS/gCz9RKinKV/k+GIkFuiQEGnhLQDhC3aX2MlP4z5ezlVswXkMTzToG6By5815xN5rpYtHDj+Gcuds6qqDtXCcrpLkOrkovuVxO3XknrBFp992vCulPBDti9IC+0Z4VljBVJ9wjANWJoQ3/76TRQAAABlEzYgf1KakOeK1J2evkmHxLAnVQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAbXUbJ1l9e0y1xrAbTlj7ZQAAAAACAAAAAAADZgAAwAAAABAAAAAXpoR2OrRDoWWmwyC1ETH9AAAAAASAAACgAAAAEAAAABPMenXNmxV7sZMQ5eo+8X6IAAAAT4ktO1HPXpqGCms9aZzn/PvfTi+TZoNhYMAqYJ/7VoolNlBnnc70z2U4w4HG9wUXCmFdR7swcDNyhJ2CQ8sJ8cPj9XlRp0dJCTjHQTJRWdLjOw/xpvHzZD9n3n5hLsxhbg+dXvkBH57juW1AVE5t7qRddGMLt25arOd11VqneKpfM/XSKoUjEBQAAAAnIYZqAmlXtuGehgRx70YQFb/DEQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -814,10 +814,10 @@
                 <SSIS:Property SSIS:Name="Name">ETL_Load_Data_Warehouse</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">196</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">199</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{303F4CB7-59D2-42DA-9FB6-A01B52496B44}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{50D83069-9D84-43AC-8A1D-1389C171659F}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -1102,6 +1102,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1296,6 +1298,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1575,10 +1579,10 @@
                 <SSIS:Property SSIS:Name="Name">ETL_Load_Staging_Area</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">389</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">395</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{F3DCAE44-6425-407A-903C-D6259A7388DB}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{F277C5C6-D9E8-4878-B1F5-FF850EB91CFD}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -1849,7 +1853,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=192.60.1.6;User ID=joelvicente;Initial Catalog=DBPortalLudimusic;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=192.60.1.6;User ID=instalador;Initial Catalog=DBPortalLudimusic;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1938,7 +1942,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">joelvicente</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">instalador</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
